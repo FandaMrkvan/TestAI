@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080d17">
+  <meta name="description" content="Portfolio webového vývojáře. Tvořím promyšlené weby, které fungují stejně dobře, jako vypadají.">
+  <title>Alex Novák — Webový vývojář</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="#domu" aria-label="Alex Novák, úvod">AN<span>.</span></a>
+    <nav class="main-nav" aria-label="Hlavní navigace">
+      <a href="#o-mne">O mně</a>
+      <a href="#projekty">Projekty</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+    <a class="header-cta" href="#kontakt">Pojďme spolupracovat <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="domu" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> Webový vývojář · Praha, Česko</p>
+        <h1 id="hero-title">Digitální zážitky,<br>které <span>mají smysl.</span></h1>
+        <p class="hero-intro">Navrhuji a stavím rychlé, přístupné weby pro lidi a značky, které chtějí být vidět.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projekty">Prohlédnout projekty <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="#o-mne">Více o mně <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-meta">
+          <div><strong>4+</strong><span>roky zkušeností</span></div>
+          <div><strong>18</strong><span>dokončených projektů</span></div>
+          <div><strong>100%</strong><span>zvědavosti</span></div>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Ukázka moderního webového designu">
+        <div class="visual-frame">
+          <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=85" alt="Přehled moderního webového rozhraní na obrazovce" fetchpriority="high">
+          <div class="image-tag"><span class="tag-mark">✳</span> Tvořím pro web</div>
+          <div class="visual-index">01 <span>/</span> 03</div>
+        </div>
+        <span class="visual-orbit orbit-one" aria-hidden="true"></span>
+        <span class="visual-orbit orbit-two" aria-hidden="true"></span>
+        <span class="hero-cross" aria-hidden="true">+</span>
+      </div>
+      <a class="scroll-cue" href="#o-mne"><span></span> Scrolluj dál</a>
+    </section>
+
+    <section class="about section-wrap" id="o-mne" aria-labelledby="about-title">
+      <div class="section-label"><span>01</span> / O MNĚ</div>
+      <div class="about-content">
+        <h2 id="about-title">Kód, který slouží lidem.<br><span>Design, který jim zůstane v hlavě.</span></h2>
+        <div class="about-bottom">
+          <p>Jsem Alex, nezávislý webový vývojář se zaměřením na frontend. Baví mě přetvářet složité nápady v jednoduché a příjemné digitální produkty. Od prvního wireframu až po poslední řádek kódu.</p>
+          <div class="skills" aria-label="Technologie a dovednosti">
+            <span>HTML &amp; CSS</span><span>JavaScript</span><span>React</span><span>UI / UX</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects section-wrap" id="projekty" aria-labelledby="projects-title">
+      <div class="projects-heading">
+        <div>
+          <div class="section-label"><span>02</span> / VÝBĚR PRÁCE</div>
+          <h2 id="projects-title">Vybrané projekty<span>.</span></h2>
+        </div>
+        <p>Pár věcí, na kterých jsem<br>poslední dobou pracoval.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card project-featured">
+          <a class="project-image" href="#kontakt" aria-label="Zjistit více o projektu Northstar">
+            <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=1400&q=85" alt="Barevná kompozice vizuální identity značky" loading="lazy">
+            <span class="project-arrow" aria-hidden="true">↗</span>
+          </a>
+          <div class="project-info"><div><h3>Northstar</h3><p>Digitální studio · 2025</p></div><span class="project-type">Web design / vývoj</span></div>
+        </article>
+        <article class="project-card">
+          <a class="project-image project-image-blue" href="#kontakt" aria-label="Zjistit více o projektu Fieldnotes">
+            <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=85" alt="Světlý moderní pracovní prostor s rostlinami" loading="lazy">
+            <span class="project-arrow" aria-hidden="true">↗</span>
+          </a>
+          <div class="project-info"><div><h3>Fieldnotes</h3><p>Kreativní agentura · 2024</p></div><span class="project-type">Frontend / React</span></div>
+        </article>
+        <article class="project-card">
+          <a class="project-image project-image-light" href="#kontakt" aria-label="Zjistit více o projektu Monokel">
+            <img src="https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1200&q=85" alt="Minimalistická židle v čistém interiéru" loading="lazy">
+            <span class="project-arrow" aria-hidden="true">↗</span>
+          </a>
+          <div class="project-info"><div><h3>Monokel</h3><p>Produktový e-shop · 2024</p></div><span class="project-type">E-commerce</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact section-wrap" id="kontakt" aria-labelledby="contact-title">
+      <div class="section-label"><span>03</span> / KONTAKT</div>
+      <div class="contact-content">
+        <p class="eyebrow">Máte zajímavý projekt?</p>
+        <h2 id="contact-title">Pojďme ho<br><span>společně postavit.</span></h2>
+        <a class="contact-link" href="mailto:ahoj@alexnovak.dev">ahoj@alexnovak.dev <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="contact-note">Odpovídám obvykle do 2 pracovních dnů.</div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-wrap">
+    <a class="wordmark" href="#domu">AN<span>.</span></a>
+    <p>Navrženo a vytvořeno s péčí v Praze.</p>
+    <a href="#domu" class="back-top">Zpět nahoru ↑</a>
+    <span class="copyright">© 2025 Alex Novák</span>
+  </footer>
+</body>
+</html>
